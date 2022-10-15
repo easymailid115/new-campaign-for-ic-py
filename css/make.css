@@ -1,0 +1,146 @@
+body{
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(241, 241, 241, 1) 18%, rgba(225, 225, 225, 1) 48%, rgba(246, 246, 246, 1) 82%);
+}
+
+div#LogoSection img.bdLogo {
+    width: auto;
+    position: relative;
+    top: 0;
+    left: 0px;
+    max-height: unset;
+    margin-top: 5px;
+}
+#content-holder.container{
+	max-width: inherit;
+}
+.underlinelogo{
+	border-top: 1px solid #00000036 !important;
+	margin-top: 10px;
+}
+
+#form1{
+	background: #fff;
+    padding: 10px 10px 27px 10px;
+    border-bottom: 2px solid #144876;
+}
+.container div.well-sm{
+	margin: 0;
+}
+.pera{
+	font-size: 16px;
+}
+.subtbtn{
+	padding: 5px 16px;
+    font-size: 16px;
+    line-height: 1.33;
+    border-radius: 2px;
+    width: 70%;
+}
+#secureSection.container{
+	max-width: 90%;
+}
+
+.firstrow{
+	margin: 0px 0px 10px;
+    border-bottom: 1px dashed #5c5c5c;
+}
+.bordermarc{
+	padding: 0;
+}
+.bordermarc p{
+	border-bottom: 1px solid #ddd;
+	padding: 0px 0px 13px;
+}
+btn-danger:hover{
+	background: #9f1d29 !important;
+}
+.btn-danger{
+	background: #144876;
+	border-color: #144876 !important;
+}
+#holder_name{
+	border-radius: 5px;
+}
+.newselect:focus-visible{
+	outline: none;
+}
+.newselect{
+	border: 1px solid #ccc;
+	        height: 40px;
+    width: 100%;
+    font-size: 15px;
+    padding: 0px 10px;
+    border-radius: 5px !important;
+}
+
+.verifybtn{
+	background: #144876;
+    color: #fff;
+    width: 90%;
+}
+.verifyflex{
+	display: flex;
+	margin-top: 20px;
+	justify-content: center;
+}
+.centered {
+    position: sticky;
+    width: 100%;
+}
+.textfield:focus-visible{
+	outline: none;
+}
+.textfield {
+   position: relative;
+    padding: 14px;
+    border:1px solid #979797;
+    border-radius:5px;
+    box-shadow: none;
+    width: 100%;
+}
+.centered span {
+    position: absolute;
+    z-index: 1;
+    background-color: #fff;
+    top: 13px;
+    left: 15px;
+    color: #6e6e6e;
+    padding: 0 5px;
+    font-weight: 400;
+    font-size: 15px;
+}
+.textfield:focus {
+    border:1px solid #0d47a1;
+}
+input:focus ~ span,
+input:not(:focus):valid ~ span {
+    top:-8px;
+}
+.centered label{
+	width: 100%;
+}
+.textfield, span {
+	transition: ease-in-out 0.2s all;
+	-webkit-transition: ease-in-out 0.2s all;
+	-moz-transition: ease-in-out 0.2s all;
+	-o-transition: ease-in-out 0.2s all;
+}
+.toggle-password{
+	    position: absolute;
+    right: 19px;
+    top: 30%;
+}
+
+/* Change the white to any color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+@media (max-width:  720px){
+	.trac{
+		text-align: right;
+	}
+}

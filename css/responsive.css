@@ -1,0 +1,122 @@
+/* CSS Document */
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 640px) {
+/* Styles */
+
+.leftSection { border:0px; }
+
+.appPage2 .navbar-holder .navbar p.small { padding-left:15px; }
+.appPage2 .navbar-holder .navbar div.navbar-header .navbar-brand { padding:25px 15px 8px 15px; }
+.appPage2 .navbar-holder .navbar div.navbar-right , .appPage2 .navbar-holder .navbar  .navbar-btn { margin-top:0px; }
+.appPage2 .navbar-holder .navbar div.container-fluid { margin-bottom:10px; }
+.appPage2 .navbar-holder { margin-left:-18px; margin-right:-18px;  padding:0px; }
+
+
+ul.couponList { width:auto; max-width:450px; }
+ol.breadcrumb { margin-bottom:0px; padding:0px; }
+
+.appPage1 div.form-group div.well-sm { padding:5px; }
+.pagebar-header h2 { font-size:12px; }
+
+.rightSection { height:auto;  }
+div.rightSection div.advtBanner { margin:10px 0px; width:96%; height:150px !important; }
+div.rightSection div.advtBanner div.advtBlock { height:150px; padding-top:30px; }
+div.rightSection div.advtBanner div.advtBlock .col-xs-6:last-child { padding-top:30px; }
+div.advtBanner img { width:100%; }
+
+.appPage1 #buttonSection div.panel-footer button.btn-primary { padding:15px; }
+
+#footer { margin-bottom:0px; }
+#footer div.ipdetails { display:block; }
+#footer div.poweredby { background:#ECF0F1; padding:15px; text-align:center; }
+ 
+ 
+.responsePage .navbar { display:none; }
+.responsePage dl.dl-horizontal dt { text-align:left; font-weight:normal; color:#5A5A5A; text-transform:uppercase; font-size:12px; }
+.responsePage dl.dl-horizontal dd { padding-bottom:10px; border-bottom:2px dotted rgb(241, 241, 241);  }
+
+#sbiOnlineSection { margin-left:auto; }
+#trackPayment > #buttonSection { margin-top:0px; }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+.payOption abbr { display:block; }
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1023px) {
+/* Styles */
+.ipadFix > div.col-md-4 { width:30%; float:left; }
+.ipadFix > div.col-md-8 { width:60%; float:left;}
+
+.rightSection { height:auto; padding:0px;  }
+div.advtBanner { width:98%; margin:10px 0px;  height:150px !important; }
+div.rightSection div.advtBanner div.advtBlock { height:150px; padding-top:30px; }
+div.rightSection div.advtBanner div.advtBlock .col-xs-6:last-child { padding-top:30px; }
+div.advtBanner img { width:100%; }
+}
+
+/* Desktop (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 1024px) 
+and (max-device-width : 1200px) {
+/* Styles */
+.leftSection { width:60%; }
+.rightSection { width:35%; }
+ 
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 970px) 
+and (orientation : portrait) {
+/* Styles */
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+
+}
